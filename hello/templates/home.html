@@ -1,0 +1,296 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Iqra Sabri | Portfolio</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">IQRA SABRI</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active"><i class="fa-solid fa-house"></i> Home  </a>
+            <a href="#about" style="--i:2"><i class="fa-solid fa-circle-info"></i> About</a>
+            <a href="#services" style="--i:3"><i class="fa-brands fa-ioxhost"></i> Services</a>
+            <a href="#portfolio" style="--i:4"><i class="fa-brands fa-buromobelexperte"></i> Portfolio</a>
+            <a href="#skills" style="--i:5"><i class="fa-brands fa-yelp"></i> Skills</a>
+            <a href="#contact" style="--i:6"><i class="fa-regular fa-user"></i> Contact</a>
+        </nav>
+        <div class="hamburger">
+            <i class='bx bx-menu'></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Iqra Sabri</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Passionate Full Stack Python Developer | Building Amazing Websites & Applications</p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com" target="_blank" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com" target="_blank" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://web.telegram.org/k/" target="_blank" style="--i:9"><i class='bx bxl-telegram'></i></a>
+                <a href="https://www.linkedin.com" target="_blank" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <div class="img-circle">
+                <img src="static/photo.png" alt="Iqra Sabri">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="static/photo.png" alt="Iqra Sabri">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Python Developer</h4>
+            <p>Hello! I'm Iqra Sabri, a passionate Fresher Full Stack Python Developer currently learning and improving my skills in web development. I have knowledge of Python, HTML, CSS, JavaScript, and MySQL, and I enjoy building simple and responsive web applications.
+
+            During my learning journey, I have practiced creating different web pages and small projects that help me understand both frontend and backend development. I like solving problems, writing clean code, and learning new technologies that help me grow as a developer.
+            
+            As a fresher, I am looking for an opportunity where I can apply my skills, gain real-world experience, and continue learning from experienced developers. My goal is to become a skilled Full Stack Developer and build useful web applications that provide a great user experience.</p>
+            <a href="#portfolio" class="btn-box">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div class="service-card">
+                    <i class='bx bx-code' style='color:#00d9ff'></i>
+                    <h2>Frontend Developer</h2>
+                    <p>Creating Beautiful responsive, and user-friendly websites using modern technologies like HTML5, CSS3, JavaScript, and Python.</p>
+                    <a href="https://roadmap.sh/frontend" class="read">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-palette' style='color:#00d9ff'></i>
+                    <h2>UI/UX Developer</h2>
+                    <p>Designing intuitive and visually appealing user interfaces that provide excellent user experience.</p>
+                    <a href="https://roadmap.sh/ux-design" class="read">Learn More</a>
+                </div>
+                <div class="service-card">
+                    <i class='bx bx-data' style='color:#00d9ff'></i>
+                    <h2>Backend Developer</h2>
+                    <p>Building robust server-side applications with Python, Django, and database management with MySQL.</p>
+                    <a href="https://roadmap.sh/backend" class="read">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="portfolio-grid">
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <i class='bx bx-user-pin'></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>ATM Machine</h3>
+                        <p>A ATM Machine is use for Check Balance, Deposit Cash, Withdraw cash .</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="/atm" class="btn-project"><i class='bx bx-link-external' target="_blank" ></i> View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <i class='bx bx-news'></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Calculator</h3>
+                        <p>A calculate is a fully Responsive and It perform All Mathimatical calculations.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="/calculator" class="btn-project"><i class='bx bx-link-external' target="_blank"></i> View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-img">
+                        <i class='bx bx-task'></i>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Marksheet</h3>
+                        <p>A Marksheet is use to calculate the Percentage and Grade</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="/marksheet" class="btn-project"><i class='bx bx-link-external' target="_blank"></i> View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1 class="sub-title">My <span>Skills</span></h1>
+            <div class="skills-wrapper">
+                <div class="skills-content">
+                    <h2 class="skills-title">Technical Skills</h2>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i style="color: #e34c26" class='bx bxl-html5'></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="progress-line">
+                                <span data-width="90%"></span>
+                            </div>
+                            <span class="percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i style="color: #264de4" class='bx bxl-css3'></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="progress-line">
+                                <span data-width="80%"></span>
+                            </div>
+                            <span class="percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i style="color: #f0db4f" class='bx bxl-javascript'></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="progress-line">
+                                <span data-width="75%"></span>
+                            </div>
+                            <span class="percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i style="color: #306998" class='bx bxl-python'></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="progress-line">
+                                <span data-width="70%"></span>
+                            </div>
+                            <span class="percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i style="color: #61dafb" class='bx bxl-react'></i>
+                                <span>React</span>
+                            </div>
+                            <div class="progress-line">
+                                <span data-width="60%"></span>
+                            </div>
+                            <span class="percentage">60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-content">
+                    <h2 class="skills-title">Professional Skills</h2>
+                    <div class="professional-skills">
+                        <div class="professional-card">
+                            <div class="circle" data-percent="90">
+                                <span>90%</span>
+                            </div>
+                            <h3>Communication</h3>
+                        </div>
+                        <div class="professional-card">
+                            <div class="circle" data-percent="85">
+                                <span>85%</span>
+                            </div>
+                            <h3>Teamwork</h3>
+                        </div>
+                        <div class="professional-card">
+                            <div class="circle" data-percent="80">
+                                <span>80%</span>
+                            </div>
+                            <h3>Problem Solving</h3>
+                        </div>
+                        <div class="professional-card">
+                            <div class="circle" data-percent="85">
+                                <span>85%</span>
+                            </div>
+                            <h3>Creativity</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's Work Together</h4>
+                <p>Feel free to reach out if you have any questions or want to collaborate on a project. I'm always open to discussing new opportunities and creative ideas.</p>
+                <div class="contact-list">
+                    <li><i class='bx bxs-envelope'></i> iqrasabri8@gmail.com</li>
+                    <li><i class='bx bxs-phone'></i> 9012857276</li>
+                    <li><i class='bx bxs-location-plus'></i> India</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://web.telegram.org/k/" target="_blank"><i class='bx bxl-telegram'></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="" method="POST"> {% csrf_token %}
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" id="subject" name="subject"> 
+                    <textarea cols="40" rows="10" placeholder="Your Message" id="text" name="text" required></textarea>
+                    <input type="submit" value="Send Message" class="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Iqra Sabri. All Rights Reserved.</p>
+    </footer>
+
+    <script src="static/script.js"></script>
+    <script>
+        var typed = new Typed(".text", {
+            strings: ["Frontend Developer", "Backend Developer", "Python Developer", "Web Developer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
